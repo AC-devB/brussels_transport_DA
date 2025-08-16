@@ -14,6 +14,8 @@ The project began by collecting raw data, which was split across multiple text f
 2.  Clean and transform the raw data into a structured format.
 3.  Load the cleaned data into an SQLite database for efficient querying.
 
+
+### *Python script for cleaning and sorting data*
 ```Python
 import pandas as pd
 
