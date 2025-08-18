@@ -7,13 +7,15 @@ This project demonstrates a complete data analysis process, from raw data collec
 * **Data Analysis:** SQL
 * **Visualization:** Power BI
 
+## [Visual Graphs]
+<img width="1460" height="820" alt="bxl_transport_BI_namur" src="https://github.com/user-attachments/assets/0457c2fd-3dec-4991-bb5e-05dff5df8006" />
+
 ## [Collecting and cleaning data with Python and Pandas]
 
 The project began by collecting raw data, which was split across multiple text files. Python and Pandas was used to:
 * Download and extract the compressed data.
 * Clean and transform the raw data into a structured format.
 * Load the cleaned data into an SQLite database for efficient querying.
-<img width="1460" height="820" alt="bxl_transport_BI_namur" src="https://github.com/user-attachments/assets/0457c2fd-3dec-4991-bb5e-05dff5df8006" />
 
 
 ### *Python script for cleaning and sorting data*
