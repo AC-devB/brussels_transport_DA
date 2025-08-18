@@ -1,5 +1,5 @@
 # Brussels Public Transportation Data Analysis & Dashboarding
-This project demonstrates a complete data analysis process, from raw data collection and cleaning to creating an interactive, insight-driven dashboard for the public transportation network of Brussels. Messy data has been turned into a simple tool to understand network performance.
+This project demonstrates a complete data analysis process, from raw data collection and cleaning to creating an interactive, insight-driven dashboard for the public transportation network of Brussels.
 
 ## Technologies
 * **Data Collection & Cleaning:** Python (Pandas)
@@ -10,9 +10,9 @@ This project demonstrates a complete data analysis process, from raw data collec
 ## [Collecting and cleaning data with Python and Pandas]
 
 The project began by collecting raw data, which was split across multiple text files. Python and Pandas was used to:
-1.  Download and extract the compressed data.
-2.  Clean and transform the raw data into a structured format.
-3.  Load the cleaned data into an SQLite database for efficient querying.
+* Download and extract the compressed data.
+* Clean and transform the raw data into a structured format.
+* Load the cleaned data into an SQLite database for efficient querying.
 
 
 ### *Python script for cleaning and sorting data*
@@ -82,21 +82,19 @@ LIMIT 10;
 ```
 ## [Power BI Dashboard & Visualizations]
 
-Connected Power BI to a SQLite database via ODBC. Built an interactive dashboard to analyze network performance, including a new column in Power Query to convert arrival_time_seconds table into a time format for clearer daily trends.
-
-Key Components:
+Connected Power BI to a SQLite database via ODBC. Built an interactive dashboard to analyze network performance, including a new column in Power Query in order to convert a table into a time format to make daily patterns easier to see. Visualizations include:
 
 * **Network Overview (Cards)**: Total Stops Made, Number of Stations
-
 * **Busiest Stops (Bar Chart)**: Top 10 stops by activity
-
 * **Daily Usage (Line Chart)**: Total stops made by time of day, highlighting peak hours
-
 * **Transport Type Distribution (Donut Chart)**: Total scheduled trips per transport type
+* **Network Locations (Map Chart)**: Interactive map of Brussels' stations showing usage, top stops and transport modes with area and route details.
 
 ## [Insights]
-**Rush hour commuting is important.** Daily usage analysis showed clear peaks in the morning and evening, indicating that the network is mainly used for work-related travel.
+Through this project, messy data has been turned into a simple tool to understand network performance. Below are some important findings:
 
-**Top stations are network hubs**. The analysis pinpointed the busiest stations, showing where the majority of network activity is concentrated. This information is important for managing passenger flow.
+* **Rush hour commuting is important.** Daily usage analysis showed clear peaks in the morning and evening, indicating that the network is mainly used for work-related travel.
 
-**Buses are the most used**. Data shows that buses make up the highest percentage of all scheduled trips.
+* **Top stations are network hubs**. The analysis pinpointed the busiest stations, showing where the majority of network activity is concentrated. This information is important for managing passenger flow.
+
+* **Buses are the most used**. Data shows that buses make up the highest percentage of all scheduled trips.
