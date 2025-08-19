@@ -7,7 +7,7 @@ This project demonstrates a complete data analysis process, from raw data collec
 * **Data Analysis:** SQL
 * **Visualization:** Power BI
 
-## [Visual Graphs (examples)]
+## Visual Graphs examples
 <img width="1459" height="817" alt="bxl_BI_top2" src="https://github.com/user-attachments/assets/c29b3c72-783a-4123-8049-0ee67299d36b" />
 <img width="1458" height="819" alt="bxl_BI_Metro" src="https://github.com/user-attachments/assets/8e3d22d2-7184-4813-8ece-dc20c3ebdc57" />
 
