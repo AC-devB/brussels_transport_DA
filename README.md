@@ -20,7 +20,7 @@ This project demonstrates a complete data analysis process, from raw data collec
 The project began by collecting raw data, which was split across multiple text files. Python and Pandas was used to:
 * Download and extract the compressed data.
 * Clean and transform the raw data into a structured format.
-* Load the cleaned data into an SQLite database for efficient querying.
+* Load the cleaned data into a SQLite database for efficient querying.
 
 
 ### *Python script for cleaning and sorting data*
@@ -90,7 +90,7 @@ LIMIT 10;
 ```
 ## [Power BI Dashboard & Visualizations]
 
-Connected Power BI to a SQLite database via ODBC. Built an interactive dashboard to analyze network performance, including a new column in Power Query in order to convert a table into a time format to make daily patterns easier to see. New measures were created using DAX to calculate key performance indicators. Visualizations include:
+Power BI was connected to a SQLite database via ODBC. An interactive dashboard was built to analyze network performance, including a new column in Power Query in order to convert a table into a time format to make daily patterns easier to see. New measures were created using DAX to calculate key performance indicators. Visualizations include:
 
 * **Network Overview (Cards)**: Total Stops Made, Number of Stations
 * **Busiest Stops (Bar Chart)**: Top 10 stops by activity
