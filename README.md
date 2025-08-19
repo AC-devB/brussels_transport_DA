@@ -7,8 +7,9 @@ This project demonstrates a complete data analysis process, from raw data collec
 * **Data Analysis:** SQL
 * **Visualization:** Power BI
 
-## [Visual Graphs]
-<img width="1460" height="820" alt="bxl_transport_BI_namur" src="https://github.com/user-attachments/assets/0457c2fd-3dec-4991-bb5e-05dff5df8006" />
+## [Visual Graphs (examples)]
+<img width="1459" height="817" alt="bxl_BI_top2" src="https://github.com/user-attachments/assets/c29b3c72-783a-4123-8049-0ee67299d36b" />
+<img width="1458" height="819" alt="bxl_BI_Metro" src="https://github.com/user-attachments/assets/8e3d22d2-7184-4813-8ece-dc20c3ebdc57" />
 
 ## [Collecting and cleaning data with Python and Pandas]
 
