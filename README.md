@@ -85,7 +85,7 @@ LIMIT 10;
 ```
 ## [Power BI Dashboard & Visualizations]
 
-Connected Power BI to a SQLite database via ODBC. Built an interactive dashboard to analyze network performance, including a new column in Power Query in order to convert a table into a time format to make daily patterns easier to see. Visualizations include:
+Connected Power BI to a SQLite database via ODBC. Built an interactive dashboard to analyze network performance, including a new column in Power Query in order to convert a table into a time format to make daily patterns easier to see. New measures were created using DAX to calculate key performance indicators. Visualizations include:
 
 * **Network Overview (Cards)**: Total Stops Made, Number of Stations
 * **Busiest Stops (Bar Chart)**: Top 10 stops by activity
