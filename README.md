@@ -33,7 +33,6 @@ try:
     routes = pd.read_csv(f"{gtfs_path}routes.txt")
     trips = pd.read_csv(f"{gtfs_path}trips.txt")
     stops = pd.read_csv(f"{gtfs_path}stops.txt")
-    stop_times = pd.read_csv(f"{gtfs_path}stop_times.txt")
 
     print("Files loaded successfully!")
 
@@ -50,7 +49,6 @@ engine = create_engine(f'sqlite:///{db_name}')
 stops.rename(columns={'stop_id': 'stop_pk', 'stop_lat': 'latitude', 'stop_lon': 'longitude'}, inplace=True)
 routes.rename(columns={'route_id': 'route_pk'}, inplace=True)
 trips.rename(columns={'trip_id': 'trip_pk', 'route_id': 'route_fk'}, inplace=True)
-stop_times.rename(columns={'trip_id': 'trip_fk', 'stop_id': 'stop_fk'}, inplace=True)
 
 # Loading into SQL database
 try:
@@ -58,7 +56,6 @@ try:
     routes.to_sql('dim_routes', engine, if_exists='replace', index=False)
     stops.to_sql('dim_stops', engine, if_exists='replace', index=False)
     trips.to_sql('dim_trips', engine, if_exists='replace', index=False)
-    stop_times.to_sql('fact_stop_times', engine, if_exists='replace', index=False)
 
     print(f"Success! Database '{db_name}' has been created.")
     print("Tables created: dim_routes, dim_stops, dim_trips, fact_stop_times")
