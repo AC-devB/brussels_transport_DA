@@ -17,7 +17,7 @@ This project demonstrates a complete data analysis process, from raw data collec
 
 ## [Collecting and cleaning data with Python and Pandas]
 
-The project began by collecting raw data, which was split across multiple text files. Python and Pandas was used to:
+The project began by collecting raw data, which was split across multiple text files. Python and Pandas were used to:
 * Download and extract the compressed data.
 * Clean and transform the raw data into a structured format.
 * Load the cleaned data into a SQLite database for efficient querying.
