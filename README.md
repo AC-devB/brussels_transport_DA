@@ -89,10 +89,10 @@ LIMIT 10;
 
 Power BI was connected to a SQLite database via ODBC. An interactive dashboard was built to analyze network performance, including a new column in Power Query in order to convert a table into a time format to make daily patterns easier to see. New measures were created using DAX to calculate key performance indicators. Visualizations include:
 
-* **Network Overview (Cards)**: Total Stops Made, Number of Stations
-* **Busiest Stops (Bar Chart)**: Top 10 stops by activity
-* **Daily Usage (Line Chart)**: Total stops made by time of day, highlighting peak hours
-* **Transport Type Distribution (Donut Chart)**: Total scheduled trips per transport type
+* **Network Overview (Cards)**: Total Stops Made, Number of Stations.
+* **Busiest Stops (Bar Chart)**: Top 10 stops by activity.
+* **Daily Usage (Line Chart)**: Total stops made by time of day, highlighting peak hours.
+* **Transport Type Distribution (Donut Chart)**: Total scheduled trips per transport type.
 * **Network Locations (Map Chart)**: Interactive map of Brussels' stations showing usage, top stops and transport modes with area and route details.
 
 ## [Insights]
